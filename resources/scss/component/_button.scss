@@ -10,16 +10,9 @@
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
-  &:hover {
-    color: $color-secondary-light;
-    opacity: 0.8;
-  }
-  &:active {
-    opacity: initial;
-  }
 }
 
 .btn {
-  @include buttons($color-button)
+  @include buttons($color-button);
 }
 

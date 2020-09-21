@@ -11,16 +11,23 @@
 
   @mixin themes($map) {
       @each $theme, $color in $map {
-          &-#{$theme} {
-              color: $color;
+          &.#{$theme} {
+              background-color: $color;
           }
       }
   }
 
   @mixin buttons($map) {
       @each $button, $color in $map {
-          &-#{button} {
-              color: $color;
+          &.#{$button} {
+              background-color: $color;
+              &:hover {
+                  background-color: lighten($color, 15%);
+                  opacity: 0.8;
+              }
+              &:active {
+                  opacity: initial;
+              }
           }
       }
   }
