@@ -21,3 +21,9 @@
           }
       }
   }
+
+  @mixin transition {
+      transition: 
+      background-color .5s ease-in-out,
+      color .6s ease-in-out;
+  }

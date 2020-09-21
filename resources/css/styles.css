@@ -73,6 +73,9 @@
   border-radius: 5px;
 }
 
+.btn {
+  transition: background-color 0.5s ease-in-out, color 0.6s ease-in-out;
+}
 .btn.default {
   background-color: #51ddfc;
 }
