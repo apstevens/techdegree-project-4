@@ -21,7 +21,7 @@
 }
 
 .theme {
-  @include themes($themes);
+  @include themes($color-themes);
 }
 
 .card {
