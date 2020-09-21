@@ -1,2 +1,2 @@
-# tech-project-4
+# Techdegree Project Four
  Techdegree project four
