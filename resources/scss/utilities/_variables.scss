@@ -26,6 +26,14 @@ $color-themes: (
     'col-12':#80e8d1,
 );
 
+$color-button: (
+    'def': #51ddfc,
+    'err': #e4757a,
+    'inf': #927bc1,
+    'succ': #63cc82,
+    'warn': #fd7856,
+);
+
 // Breakpoints
 
 $break-med: 768px;

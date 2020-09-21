@@ -8,3 +8,19 @@
     flex-wrap: $wrap;
     justify-content: $just;
   }
+
+  @mixin themes($map) {
+      @each $theme, $color in $map {
+          &-#{$theme} {
+              color: $color;
+          }
+      }
+  }
+
+  @mixin buttons($map) {
+      @each $button, $color in $map {
+          &-#{button} {
+              color: $color;
+          }
+      }
+  }

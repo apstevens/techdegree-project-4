@@ -11,7 +11,7 @@
   text-transform: uppercase;
   border-radius: 5px;
   &:hover {
-    color: $color-secondary-lighten;
+    color: $color-secondary-light;
     opacity: 0.8;
   }
   &:active {
@@ -20,24 +20,8 @@
 }
 
 .btn {
-  &-default {
-  background-color: $color-secondary;
-}
-
-&-error {
-  background-color: $color-tertiary;
-}
-
-&-info {
-  background-color: $color-quarternary;
-}
-
-&-success {
-  background-color: $color-quinary;
-}
-
-&-warning {
-  background-color: $color-senary;
-}
+  @include button($color-buttons){
+    @extend %btn;
+  }
 }
 
