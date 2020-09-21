@@ -3,17 +3,17 @@
 // ======================================
 
 // Utilities
+@import 'utilities/variables';
 @import 'utilities/index';
 @import 'utilities/mixins';
-@import 'utilities/variables';
 
 // Component Styles
+@import 'component/grid';
 @import 'component/button';
 @import 'component/form';
-@import 'component/grid';
 @import 'component/images';
-@import 'component/media-queries';
 @import 'component/navigation';
+@import 'component/media-queries';
 
 // Base Styles   
 @import 'base/index';

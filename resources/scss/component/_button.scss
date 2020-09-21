@@ -14,5 +14,6 @@
 
 .btn {
   @include buttons($color-button);
+  @extend %btn;
 }
 
