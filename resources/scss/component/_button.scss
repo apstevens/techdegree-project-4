@@ -1,0 +1,43 @@
+/* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+
+%btn {
+  margin-top: 15px;
+  width: 100%;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: 5px;
+  &:hover {
+    color: $color-secondary-lighten;
+    opacity: 0.8;
+  }
+  &:active {
+    opacity: initial;
+  }
+}
+
+.btn {
+  &-default {
+  background-color: $color-secondary;
+}
+
+&-error {
+  background-color: $color-tertiary;
+}
+
+&-info {
+  background-color: $color-quarternary;
+}
+
+&-success {
+  background-color: $color-quinary;
+}
+
+&-warning {
+  background-color: $color-senary;
+}
+}
+
